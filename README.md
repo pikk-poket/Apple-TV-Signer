@@ -160,6 +160,11 @@ English, French, German, Spanish, Italian, Brazilian Portuguese, Simplified Chin
 
 The deployment target is macOS 11.0. The complete pairing, UDID, signing, tunnel, and installation workflow was validated during development on current macOS and tvOS hardware. Older macOS versions permitted by the deployment target should be qualified on real hardware before being treated as fully tested.
 
+## Social links
+
+- [X — @pikk_poket](https://x.com/pikk_poket)
+- [Telegram — @pikk_poket](https://t.me/pikk_poket)
+
 ## Disclaimer
 
 This project is not affiliated with or endorsed by Apple. Apple TV, macOS, tvOS, and Xcode are trademarks of Apple Inc. Users are responsible for complying with Apple Developer terms, local law, and the licenses of the applications they sign.
