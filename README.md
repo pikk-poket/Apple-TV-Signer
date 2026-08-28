@@ -69,7 +69,12 @@ All screenshots use deterministic demonstration data. No real certificate, UDID,
 
 ## Availability
 
-This public repository contains product documentation and demonstration screenshots only. It does not contain the source code, application binaries, certificates, provisioning profiles, or other signing material.
+Download the archive that matches your Mac from the latest release:
+
+- [Apple Silicon — ARM64](https://github.com/pikk-poket/Apple-TV-Signer/releases/download/v1.0.0/Apple-TV-Signer-macOS-1.0-ARM64.zip)
+- [Intel — x86_64](https://github.com/pikk-poket/Apple-TV-Signer/releases/download/v1.0.0/Apple-TV-Signer-macOS-1.0-Intel-x86_64.zip)
+
+These are separate native builds rather than a single Universal 2 binary. No certificate, provisioning profile, password, commercial tvOS application, or private project source code is included.
 
 ## How to use
 
@@ -131,7 +136,7 @@ To remove the Mac on the Apple TV side as well, forget it from the Apple TV's **
 
 The native user interface is written in Swift with AppKit. Device inspection, pairing, signing, tunnel management, and installation are handled by a self-contained Python backend bundled separately for ARM64 and x86_64.
 
-Each release contains matching architectures:
+The release provides matching architecture-specific archives:
 
 | Release | Native interface | Embedded backend |
 | --- | --- | --- |
